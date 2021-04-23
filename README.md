@@ -24,4 +24,7 @@ https://launchpad.support.sap.com/#/notes/2596411
 
 Use Case:
 The use case we focus on is using two pipelines in the Data Intelligence Modeler by using an existing function module to create sales orders in a remote S/4 HANA system. The first pipeline will leverage a custom ABAP operator to extract the metadata of the function module including the required input parameters for performing the function module call. 
-In a second pipeline, we will perform the required mapping for the generated JSON file and provide the required input parameters to trigger the function module call in the connected ABAP system with a second custom ABAP operator. For simplification reasons, we perform a  manual mapping of the required input parameters in a Go operator, but in real scenarios you may perform the mapping based on data coming from another connected system, a web service or from a CSV file. In this blog we will use “BAPI_EPM_SO_CREATE” to create a sales order in our S/4 HANA system that requires certain input parameters for creating a sales order
+In a second pipeline, we will perform the required mapping for the generated JSON file and provide the required input parameters to trigger the function module call in the connected ABAP system with a second custom ABAP operator. For simplification reasons, we perform a  manual mapping of the required input parameters in a Go operator, but in real scenarios you may perform the mapping based on data coming from another connected system, a web service or from a CSV file. In this blog we will use “BAPI_EPM_SO_CREATE” to create a sales order in our S/4 HANA system that requires certain input parameters for creating a sales order.
+
+How to obtain support
+This is an example code without any commitment for getting support.
